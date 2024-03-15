@@ -73,8 +73,11 @@ footer {
     /* clear : both; */
 }
 
+aside {
+    position: relative;
+}
 aside h2 {
     position: absolute;
-    top: 36.5rem;
-    left: 148px;
+    top: 1rem;
+    left: 138px;
 }
