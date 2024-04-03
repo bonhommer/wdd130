@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML - Bonhommer Antoine</title>
+    <link href="styles/quiz.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Quiz HTML</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="q1"><strong>1. </strong>What does HTML stand for?</label><br>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div>
+                <label for="q2"><strong>2. </strong>Give three adventages by using VsCode while coding HTML and CSS?</label><br>
+                <textarea id="q2" name="q2" rows="4" placeholder="Minimum 4 lines"></textarea>
+            </div>
+            <div>
+                <label for="q3"><strong>3. </strong>What does CSS do?</label><br>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one</option>
+                    <option value="option1">CSS styles each &lt;h1&gt; element in an HTML page</option>
+                    <option value="option2">CSS could put an image over another one</option>
+                    <option value="option3">All of above</option>
+                </select>
+            </div>
+            <div>
+                <label for="q4"><strong>4. </strong>How many browser do you know?</label><br>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    
+    <footer>©2024 | HTML Form - User Quiz HTML | Bonhommer Antoine</footer>
+</body>
+</html>
