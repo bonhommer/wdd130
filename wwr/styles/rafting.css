@@ -17,11 +17,14 @@
 h1,h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    text-align: center;
+    margin: 0;
 }
 
 p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 header nav {
@@ -117,6 +120,7 @@ footer div {
 footer { 
     display: grid;
     grid-template-columns: 1fr 0.5fr;
+    margin: 2rem 0 0 0;
 }
 header {
     display: grid;
@@ -187,5 +191,151 @@ header {
     justify-self: center;
 }
 
+main{
+    display: grid;
+}
 
+.employee-profiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.employee-profiles img {
+    width: 20rem;
+    height: auto;
+}
+
+.employee-profiles h2{
+    grid-column:1/4;
+}
+
+form p{
+    text-align: left;
+}
+
+form {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    width: 450px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+.label1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+.input1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+}
+
+.label2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+.input2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+.p-form {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+.input3 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.label3 {
+    grid-column: 2/3;
+    grid-row:5/6;
+}
+
+.input4{
+    grid-column: 1/2;
+    grid-row: 7/6;
+}
+.label4 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.input5{
+    grid-column: 1/2;
+    grid-row:7/8;
+}
+
+.label5 {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+.label6 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    text-align: right;
+}
+
+.textarea {
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+
+.label7{
+    grid-column:1/3;
+    grid-row: 10/11;
+}
+
+.input7{
+    grid-column: 2/3;
+    grid-row: 10/11;
+}
+
+button{
+    grid-column: 1/3;
+    background-color: var(--nav-background-color);
+    color: #fff;
+    padding:10px;
+    margin: 30px auto 0 auto;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: var(--accent2-color);
+    color : var(--primary-color);
+    border-radius: 10px;
+}
+
+section{
+    text-align: center;
+}
+
+.company-info{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+iframe{
+    border: 1px solid black;
+    box-shadow: 0 0 4px ;
+    margin: 10px auto;
+}
